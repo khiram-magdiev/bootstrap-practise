@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lesson Bootstrap</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <div class="container">
+		    <a class="navbar-brand" href="#"><img src="img/health.svg" alt="" width="60" height="48"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Portfolio</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Blog</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Contact</a>
+		        </li>
+		    </div>
+		      	<form class="d-flex">
+			        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			        <button class="btn btn-success" type="submit">Search</button>
+		      	</form>
+		  </div>
+		</nav>
+		<!-- Header -->
+		<header class="header d-flex align-items-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1 class="text-success">Hello ,Welcome To My Planet</h1>
+						<p class="text-white">Incredible products and technological advancements that are helping save the world and health.</p>
+						<a href="" class="btn btn-lg btn-success">See more</a>
+					</div>	
+					<div class="col-md-6"></div>
+				</div>
+			</div>
+
+		</header>
+		<main id="about">
+			<h2 class="text-center pt-5 pb-3">About</h2>
+			<div class="container">
+				<div class="card mb-3 border-0 pb-5" style="max-width: 1140px;">
+				  <div class="row g-0">
+					    <div class="col-md-4">
+					      <img src="img/avatar.png" class="img-fluid rounded-start" alt="...">
+					    </div>
+					    <div class="col-md-8">
+						      <div class="card-body">
+						        <h5 class="card-title">Dr. Alien</h5>
+						        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						        <a href="#"><small class="link-success">Read more</small></a>
+						      </div>
+					    </div>
+			  		</div>
+				</div>		
+			</div>
+		</main>
+		<div class="container">
+			<h2 class="text-center pt-1 pb-3">Blog</h2>
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Breaking</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Health</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Environment</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Corona-19</button>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+			  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+			  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+			  <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+		</div>
+			<div>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+				  <div class="col">
+				    <div class="card h-100">
+				      <img src="img/blog/blog-news-1.jpeg" class="card-img-top" alt="blog">
+				      <div class="card-body">
+				        <h5 class="card-title">Clean air</h5>
+				        <p class="card-text">Climate change affects the social and environmental determinants of health – clean air, safe drinking water, sufficient food and secure shelter.</p>
+				      </div>
+				      <div class="card-footer">
+				        <a href="#"><small class="link-success">More read</small></a>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col">
+				    <div class="card h-100">
+				      <img src="img/blog/blog-news-2.jpg" class="card-img-top" alt="blog">
+				      <div class="card-body">
+				        <h5 class="card-title">Health risks</h5>
+				        <p class="card-text">Areas with weak health infrastructure – mostly in developing countries – will be the least able to cope without assistance to prepare and respond.</p>
+				      </div>
+				      <div class="card-footer">
+				        <a href="#"><small class="link-success">More read</small></a>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col">
+				    <div class="card h-100">
+				      <img src="img/blog/blog-news-3.jpg" class="card-img-top" alt="blog">
+				      <div class="card-body">
+				        <h5 class="card-title">Ukraine emergency</h5>
+				        <p class="card-text">Reducing emissions of greenhouse gases through better transport, food and energy-use choices can result in improved health, particularly through reduced air pollution.</p>
+				      </div>
+				      <div class="card-footer">
+				        <a href="#"><small class="link-success">More read</small></a>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<nav aria-label="...">
+			  <ul class="pagination pt-5 d-flex justify-content-center">
+			    <li class="page-item disabled">
+			      <a class="page-link">Previous</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item active" aria-current="page">
+			      <a class="page-link" href="#">2</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#">Next</a>
+			    </li>
+			  </ul>
+		</nav>
+		<div class="container">
+			<h2 class="text-center pt-5 pb-3">Leave your comments</h2>
+			
+		</div>
+		<div class="container pb-5">
+		<form>
+			<div class="row">
+			  <div class="col pb-3">
+			    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+			  </div>
+			  <div class="col pb-3">
+			    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+			  </div>
+			</div>
+			
+			  <div class="mb-3">
+			    <label for="exampleInputEmail1" class="form-label">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+			  </div>
+				<div class="form-floating pb-3">
+					  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+					  <label for="floatingTextarea2">Comments</label>
+				</div>
+			 	 <div class="mb-3 form-check">
+				    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+				    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+			  	</div>
+			  <button type="submit" class="btn btn-success">Submit</button>
+			</form>
+		</div>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <div class="container pt-5 pb-5">
+		    <a class="navbar-brand" href="#"><img src="img/health.svg" alt="" width="60" height="48"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Portfolio</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Blog</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Contact</a>
+		        </li>
+		</nav>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+	</body>
+</html>
