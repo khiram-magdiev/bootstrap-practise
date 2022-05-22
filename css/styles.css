@@ -7,21 +7,30 @@
 	position: relative;
 }
 
-#about {
-/*	width: 100%;
-	height: 540px;
-	background: #ccdbd0;
-	margin-bottom: 36px;*/
-}
-
-/*#about h2 {
-	padding: 28px 120px 0px;
-}*/
-
 .text-primary {
 	text-decoration: none;
 }
 
 h2 {
 	color: #157347;
+}
+
+
+.col-md-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.img-fluid {
+	width: 100%;
+	height: 100%;
+}
+
+.avatar-img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #157347;
+	border-radius: 50%;
 }
